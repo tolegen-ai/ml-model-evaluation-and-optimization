@@ -73,7 +73,7 @@ ml-model-evaluation-and-optimization/
 
 ## Project 01: Model Benchmarking and Error Analysis
 
-The first module, `01-model-benchmarking-and-error-analysis`, is a portfolio-grade supervised learning benchmark for the UCI Forest Cover Type dataset.
+The first project, `01-model-benchmarking-and-error-analysis`, is a portfolio-grade supervised learning benchmark for the UCI Forest Cover Type dataset.
 
 It compares:
 
@@ -206,18 +206,6 @@ cd 01-model-benchmarking-and-error-analysis
 bash scripts/run_all.sh
 ```
 
-The notebooks are intentionally kept as the primary artifact for the course report, while `src/` contains reusable helpers for paths, loading, splitting, metrics, and figure saving.
-
-## GitHub Cleanup Before Push
-
-Before pushing to GitHub:
-
-```bash
-cd 01-model-benchmarking-and-error-analysis
-bash scripts/clean_outputs.sh
-git status
-```
-
 The cleanup script removes:
 
 - generated data
@@ -272,17 +260,3 @@ This repository is intended to be reviewed as a portfolio artifact. The stronges
 4. Inspect the notebooks in numerical order
 5. Review `reproducibility.md`
 6. Run `scripts/run_all.sh` locally if data is available
-
-## Status
-
-Current module status:
-
-| Module | Status |
-|---|---|
-| `01-model-benchmarking-and-error-analysis` | Active / Portfolio-ready structure |
-| Optimization and uncertainty experiments | Planned |
-| Unsupervised learning experiments | Planned |
-
-## License and Academic Integrity
-
-This repository is intended for educational and portfolio purposes. Course-derived work should be used in accordance with applicable academic integrity policies. Raw datasets are not redistributed unless their license explicitly permits redistribution.
