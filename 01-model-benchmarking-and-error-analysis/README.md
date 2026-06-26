@@ -250,7 +250,7 @@ This repository demonstrates the following applied ML engineering capabilities:
 - Clean source-control practices for ML projects
 - Communication of results for technical and non-technical stakeholders
 
-## Portfolio Use
+## Project Use
 
 This repository is intended to be reviewed as a portfolio artifact. The strongest review path is:
 
